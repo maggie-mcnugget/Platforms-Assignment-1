@@ -6,7 +6,6 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("GameScene");
-        // 👆 replace "GameScene" with your actual level name
     }
 
     public void QuitGame()

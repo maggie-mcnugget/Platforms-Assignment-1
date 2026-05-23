@@ -42,7 +42,6 @@ public class Pickup : MonoBehaviour
             {
                 pickupAudio.Play();
 
-                // destroy after sound finishes
                 Destroy(gameObject, pickupAudio.clip.length);
             }
             else

@@ -27,14 +27,14 @@ public class AudioManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // stop music in main menu
+
         if (scene.name == "MainMenu")
         {
             musicSource.Stop();
         }
         else
         {
-            // play gameplay music
+
             if (!musicSource.isPlaying)
             {
                 musicSource.clip = gameplayMusic;
